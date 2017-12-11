@@ -15,7 +15,7 @@ namespace ContosoUniversity.DAL
     {
         public SchoolContext() : base("SchoolContext")
         {
-
+          //测试GitHub
         }
 
         public DbSet<Course> Courses { get; set; }
