@@ -15,9 +15,14 @@ namespace ContosoUniversity.DAL
     {
         public SchoolContext() : base("SchoolContext")
         {
+<<<<<<< HEAD
           //测试GitHub
 		  //第二次测试
 		  //第二次测试
+		  //第三次测试
+=======
+
+>>>>>>> parent of 9299513... 测试GitHub
         }
 
         public DbSet<Course> Courses { get; set; }
